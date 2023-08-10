@@ -10,6 +10,6 @@ namespace BlogWebEntity.Entities
         public Guid CategoryId { get; set; }
         public Guid ImageId { get; set; }
         public Image Image { get; set; }
-
+        public Category Category { get; set; }
     }
 }
