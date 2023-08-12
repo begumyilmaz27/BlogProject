@@ -10,7 +10,7 @@ builder.Services.LoadDataLaterExtensions(builder.Configuration);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  //begüm
+
 
 var app = builder.Build();
 
